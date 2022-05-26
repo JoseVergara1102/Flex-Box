@@ -1,0 +1,183 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+
+     body{
+             background-color: white;
+           }
+
+.menu01{
+            display: flex;
+            justify-content: center;
+            background-color: lightgray;
+        }
+        .menu01 > div{
+            padding: 5px;
+            margin: 5px;
+            color: white;
+        }
+
+        .menu01 a {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 4px;
+        }
+
+        .menu01 a:hover{
+          background-color: whitesmoke;
+        }
+
+        img.izquierda{
+            padding: 4px;
+            margin: auto;
+            height: 120px;
+            width: 120px;
+            border: 2px solid black;
+            }
+
+header nav div{
+  float: right;
+  margin-top: 5px;
+}
+
+            header div img{
+              background: whitesmoke;
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+    border-radius: 80%;
+              }
+
+              .derecha{
+                display: flex;
+                justify-content: flex-end;
+                    padding: 10px;
+                  }
+
+                  div img:hover{
+                        background-color: #929fb3;
+                      }
+
+              main{
+                          display: flex;
+                          justify-content: flex-end;
+                          background-color: lightgray;
+                      }
+                      main > div{
+                          padding: 5px;
+                          margin: 5px;
+                          color: white;
+                      }
+
+                      main a {
+                          color: black;
+                          font-weight: bold;
+                          text-decoration: none;
+                          font-size: 16px;
+                          padding: 4px;
+                      }
+
+                      main a:hover{
+                        background-color: whitesmoke;
+                      }
+
+                      .banner ul{
+                        display: flex;
+                        padding: 0;
+                      }
+
+                      .banner li{
+                        width: 100%;
+                        list-style: none;
+                      }
+
+                      .banner img{
+                        width: 100%
+                      }
+
+                      .positioned {
+                        display: flex;
+                        justify-content: flex-start;
+                      			top: 0px;
+                      		    background: #F8A83C;
+                      		    border: 1px solid #F8A83C;
+                            	width: 1349px;
+                              height: 735px;
+                      		}
+
+                          .banner {
+                            width: 1319px;
+                            height: 700px;
+                      		    background-color: #F8A83C;
+                      		    border: 1px solid black;
+                      		    padding: 5px;
+                      		    margin: 10px;
+                      		    border-radius: 4px;
+                              background-size: 100% 100%;
+                              animation: banner 20s infinite alternate;
+                      		}
+                      @keyframes banner{
+                        0%, 25%{
+                            background-image: url(img/1.png);
+                            opacity: 1;
+                        }
+
+
+                        30%, 50%{
+                            background-image: url(img/2.png);
+                            opacity: 1;
+                        }
+
+                        55%, 75%{
+                            background-image: url(img/3.png);
+                            opacity: 1;
+                        }
+
+                        80%, 100%{
+                            background-image: url(img/5.png);
+                            opacity: 1;
+                        }
+                      }
+
+                      .icon{
+                            padding: 10px;
+                            margin: auto;
+                            height: 100px;
+                            width: 100px;
+                          }
+
+                          .menu02 {
+			top: 60px;
+			left: 40px;
+			height: 326px;
+			background-color: #F8A83C;
+			padding: 10px;
+		}
+
+    .controls{
+        width: 90%;
+        background: whitesmoke;
+        font-weight: bold;
+        padding: 4px;
+        border-radius: 6px;
+        margin-bottom: 14px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: black;
+    }
+
+    .controls:hover{
+      background-color: #09E8E8;
+    }
+
+                      footer{
+                                  padding: 20px;
+                                  background-color: black;
+                                  text-align: center;
+                                  color: white;
+                              }
